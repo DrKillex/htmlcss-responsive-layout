@@ -1,0 +1,31 @@
+/* var */
+
+:root {
+    --primary-color: #0084fd;
+    --primary-color-light: #B5DDFF;
+    --secondary-color: #9792E4;
+}
+
+/* common */
+
+.container {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.btn {
+    border-radius: 1.25rem;
+    padding: .3125rem .625rem;
+}
