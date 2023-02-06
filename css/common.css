@@ -4,12 +4,21 @@
     --primary-color: #0084fd;
     --primary-color-light: #B5DDFF;
     --secondary-color: #9792E4;
+    --gray-txt: #929292;
 }
 
 /* common */
 
 .container {
     margin: 0 auto;
+    max-width: 992px;
+    width: 100%;
+}
+
+.container-small {
+    margin: 0 auto;
+    max-width: 992px;
+    width: 80%;
 }
 
 .flex {
@@ -27,5 +36,24 @@ img {
 
 .btn {
     border-radius: 1.25rem;
-    padding: .3125rem .625rem;
+    padding: .625rem 2.5rem;
+}
+
+section {
+padding: 0 1.25rem;
+}
+
+main a {
+    text-decoration: none;
+}
+
+main .col i:not(#displayer a i) {
+    font-size: 2rem;
+}
+
+/* typo */
+
+main p {
+    font-size: 1rem;
+    line-height: 1.5rem;
 }

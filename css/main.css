@@ -1,0 +1,129 @@
+/* section displayer */
+
+#displayer .col {
+    background-color: var(--primary-color-light);
+    border-radius: 1.25rem;
+    padding: 2rem;
+    margin-top: 1.25rem;
+    width: 100%;
+    text-align: center;
+}
+
+#displayer .col1 {
+    padding-bottom: 0;
+}
+
+#displayer .btn-margin {
+    margin: 1.875rem 0;
+}
+
+
+#displayer .btn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#displayer .col i:not(a i) {
+    color: var(--primary-color);
+    font-size: 5rem;
+}
+
+#displayer .col h2 {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin: 30px 0;
+}
+
+#displayer .col p {
+    color: var(--gray-txt);
+}
+
+@media screen and (min-width: 768px) {
+    
+    #displayer .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -20px;
+    }
+
+
+    #displayer .col {
+        width: calc(100% / 3 - 40px);
+        margin: 20px;
+    }
+
+    #displayer .col1 {
+        width: calc(200% / 3 - 40px);
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    #displayer .col1 {
+        display: flex;
+    }    
+
+    #displayer .col1 .col-part1 {
+        width: 50%;
+        text-align: start;
+    }
+
+    #displayer .col1 .col-part2 {
+        width: 50%;
+    }
+}
+
+/* violet section */
+
+#violet-section {
+    background-color: var(--secondary-color);
+}
+
+#violet-section .col h2 {
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+#violet-section .col:first-child {
+    color: white;
+}
+
+#violet-section .col:nth-child(2) {
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#violet-section .col:nth-child(2) i {
+    font-size: 1.5rem;
+    padding: .9375rem;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 992px) {
+
+    #violet-section .container {
+        padding: 0 6.25rem;
+    }
+
+    #violet-section {
+        padding: 3.125rem 0;
+    }
+
+    #violet-section .row {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #violet-section .col {
+        width: 50%;
+        text-align: start;
+    }
+
+    #violet-section .col:nth-child(2) img {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
