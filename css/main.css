@@ -134,6 +134,12 @@
     text-align: center;
 }
 
+#testimonials .container > h3 {
+    color: var(--secondary-color);
+    font-size: 1.875rem;
+    margin: 1.875rem 0;
+}
+
 #testimonials .col {
     background-color: var(--secondary-color);
     color: white;
@@ -235,5 +241,100 @@
 
     #benefit .col {
         width: 30%;
+    }
+}
+
+/* about us */
+
+#about-us h2 {
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+
+#about-us img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+#about-us .about-left {
+    margin-bottom: 20px;
+}
+
+#about-us .about-right p {
+    margin: 1.25rem 0;
+}
+
+#about-us a.btn {
+    color: white;
+    background-color: var(--secondary-color);
+    margin-top: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
+    #about-us .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #about-us .row .about-left {
+        width: 60%;
+    }
+
+    #about-us .row .about-right {
+        width: 30%;
+    }
+}
+
+/* start */
+
+#start {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#start .btn {
+    background-color: white;
+    color: var(--secondary-color);
+}
+
+#start small a {
+    color: white;
+    text-decoration: underline;
+}
+
+#start .container {
+    text-align: center;
+}
+
+#start .container div {
+    margin-top: 1.25rem;
+}
+
+#start .container h2 {
+    font-size: 1rem;
+}
+
+#start .container h3 {
+    font-size: 1.25rem;
+    margin: 1.25rem 0;
+}
+
+#start .container h4 {
+    font-size: 3.125rem;
+    color: #FDC15F;
+}
+
+#start .container p {
+    margin: 1.25rem 0;
+}
+
+#start .container small .bullet::after, #start .container small .bullet::before {
+    content: "\2022";
+}
+
+@media screen and (min-width: 768px) {
+    #start .container {
+        max-width: 500px;
     }
 }
