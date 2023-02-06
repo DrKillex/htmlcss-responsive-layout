@@ -171,3 +171,69 @@
         width: 80%;
     } 
 }
+
+/* benefit */
+
+#benefit {
+    background-color: var(--secondary-color);
+}
+
+#benefit .col {
+    background-color: white;
+    border-radius: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+}
+
+#benefit .col .btn {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#benefit .col p {
+    margin: 1.875rem auto;
+}
+
+#benefit .col h3 {
+    margin-top: 1.25rem;
+}
+
+#benefit .col h3, #benefit .col h2 {
+    color: var(--secondary-color);
+}
+
+#benefit .container > h2 {
+    color: white;
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+#benefit .container h2 {
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    #benefit .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #benefit .col {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    #benefit .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #benefit .col {
+        width: 30%;
+    }
+}
