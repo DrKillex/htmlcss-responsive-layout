@@ -127,3 +127,47 @@
         margin: 0 auto;
     }
 }
+
+/* testimonials */
+
+#testimonials {
+    text-align: center;
+}
+
+#testimonials .col {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1.875rem;
+    border-radius: 1.25rem;
+    margin: 1.875rem 0;
+}
+
+#testimonials .col .col-img {
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#testimonials .col .col-img img {
+    border-radius: 50%;
+}
+
+#testimonials .col .col-txt p i {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    #testimonials .col {
+        display: flex;
+    }
+
+    #testimonials .col .col-img {
+        width: 20%;
+        margin-bottom: 0;
+    }
+
+    #testimonials .col .col-txt {
+        width: 80%;
+    } 
+}
