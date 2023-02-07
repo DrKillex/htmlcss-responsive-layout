@@ -1,9 +1,9 @@
-@import "reset.css";
+@import url("reset.css");
 
-@import "common.css";
+@import url("common.css");
 
-@import "header.css";
+@import url("header.css");
 
-@import "main.css";
+@import url("main.css");
 
-@import "footer.css"
+@import url("footer.css")
